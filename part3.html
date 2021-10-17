@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slideshow</title>
+    <link rel = "stylesheet" type = "text/css" href = "../shared/styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src = "part3.js"></script>
+</head>
+<body>
+
+
+    <nav>Effects
+        <div id = "menulist"></div>
+        <ul>
+            <li id = "fade">Fade</li>
+            <li id = "genie">Genie</li>
+            <li id = "squeeze">Squeeze</li>
+        </ul>
+    </nav>
+    <h1>Slideshow</h1>
+
+    <h3> &nbsp;&nbsp;&nbsp;&nbsp;<em><span style='font-size:1.25em;'>Y</span></em>ou can navigate the slideshow via the buttons below.
+        You may move forward or backward, play or pause the show, or toggle between
+        sequential or random display of the pictures.
+        Three transition/transformation effects are available from the menu.
+    </h3>
+
+    <canvas id = "mycanvas" height="350" width="520"></canvas>
+
+    <h4 id = "caption"></h4>
+
+    <div style="margin-left: 0px" id = "buttons">
+        <input id = "leftarrow" type="image" src="../shared/slideshow/left-arrow.png"  alt="leftarrow"/>
+        <input id = "playimg" type="image" src="../shared/slideshow/play.png"  alt="play/pause btn"/>
+        <input id = "rightarrow" type="image" src="../shared/slideshow/right-arrow.png"  alt="leftarrow"/>
+    </div>
+    <input id = "pause" type="image" src="../shared/slideshow/play.png"  alt="pause btn"/>
+    <button id = "random/seq"></button>
+
+
+</body>
+</html>
